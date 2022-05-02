@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Main.css" type="text/Css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>University Website Tutorial</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" alt="our-logo" width="150px" ></a>
+            
+            <div class="nav-links" id="nav-lin">
+                <i class="fa fa-times" onclick="hide()"></i>
+                <ul type="none">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="Course.html">Courses</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+                </div>
+            <i class="fa fa-bars" onclick="show()"></i>
+        </nav>
+        <h1>Contact  us</h1>
+    </section>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1u8BmcXIpFzcPlUlhT_kHL0pEG24&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
+    </section>
+    <section class="contactus">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i i class="fa fa-home"></i>
+                    <span>
+                        <h5>MSR ROAD,ABC Building</h5>
+                        <p>Banglore,Karnataka,IN</p>
+                    </span><br>
+                </div>
+                <div>
+                    <i i class="fa fa-home"></i>
+                    <span>
+                        <h5>MSR ROAD,ABC Building</h5>
+                        <p>Banglore,Karnataka,IN</p>
+                    </span><br>
+                </div>
+                <div>
+                    <i i class="fa fa-phone"></i>
+                    <span>
+                        <h5>MSR ROAD,ABC Building</h5>
+                        <p>Banglore,Karnataka,IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i i class="fa fa-phone"></i>
+                    <span>
+                        <h5>MSR ROAD,ABC Building</h5>
+                        <p>Banglore,Karnataka,IN</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="formhandler.php" method="post">
+                    <input type="text" placeholder="ENter Your Name" id="">
+                    <input type="emil" placeholder="ENter Your email" id="">
+                    <input type="text" placeholder="ENter Your subject" id="">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Submit Yout Query" class="hero-btn red-btn">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h1>About us</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos sunt aliquam ut non fugit labore nisi dolores! <br>Possimus, adipisci aliquam aliquid nesciunt eius veniam, repellendus, optio eveniet quas dolorem architecto.</p>
+        <div class="icons">
+            <i i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-fa-heart-o"></i> Dileep Reddy</p>
+    </section>
+
+
+    <script>
+        var navLink = document.getElementById("nav-lin")
+        function show()
+        {
+            navLink.style.right= "0"
+        }
+        function hide()
+        {
+            navLink.style.right= "-200px";
+        }
+    </script>
+</body>
+</html>
